@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "mockachino": "^0.2.3",
+    "mongodb": "^5.6.0",
+    "mongoose": "^7.3.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "apis4",
+  "version": "1.0.0",
+  "description": "App para cotizacion",
+  "main": "auth.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fbua22/apis4.git"
+  },
+  "author": "fbua",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fbua22/apis4/issues"
+  },
+  "homepage": "https://github.com/fbua22/apis4#readme"
+}

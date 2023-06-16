@@ -2,7 +2,6 @@ var select = document.querySelectorAll('.currency'),
 input_currency = document.getElementById('input_currency'),
 output_currency = document.getElementById('output_currency');
 
-
 const host = 'api.frankfurter.app';
 fetch(`https://${host}/currencies`)
   .then((data) => data.json())
@@ -14,7 +13,7 @@ fetch(`https://${host}/currencies`)
     select[0].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`
     select[1].innerHTML += `<option value="${entries[i][0]}">${entries[i][0]}</option>`
    }
-  });
+  }); 
 
   function converter(){
     var input_currency_val = input_currency.value;
@@ -32,4 +31,4 @@ fetch(`https://${host}/currencies`)
     }else{
       alert('Por favor elegí dos monedas distintas')
     }
-  }
+  } 
